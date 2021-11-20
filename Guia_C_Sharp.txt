@@ -48,3 +48,11 @@ Como o método Main é static a variavel precisa ser static para que não ocorra
 Nota : No caso do tipo char você deve utilizar '' para determinar o texto, as "" são usadas somente para strings.
 Nota : No caso do tipo float você deve colocar um f ao final do número para indicar que é um número de ponto flutuante.
 */
+
+// Formatações :
+
+{var,15} // Indica que irá ter 15 espaços ao lado esquerdo da variavel.
+
+{var,15:c} // Indica que irá ter 15 espaços ao lado esquerdo da variavel e que irá ser impresso como moeda, isso é com R$.
+
+{var,15:p} // Indica que irá ter 15 espaços ao lado esquerdo da variavel e que irá ser impresso como porcentagem, isso é com %.
