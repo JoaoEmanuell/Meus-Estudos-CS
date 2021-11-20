@@ -8,9 +8,9 @@ using System; // Indica que irá usar o sistema, não é mais necessario
 
 class Progam {. . .} // Declara uma classe, no nosso caso é a classe principal.
 
-static void Main(){. . .} // Método de execução inicial, só deve ter um por programa.
+static void Main(string[] args){. . .} // Método de execução inicial, só deve ter um por programa, o string[] args não é obrigatório.
 
-Console.WriteLine("Hello World!"); // Escreve na tela, no nosso caso é a mensagem Hello World, mas pode ser um valor de variavel.
+Console.WriteLine("Hello World!"); // Escreve na tela, no nosso caso é a mensagem Hello World, mas pode ser um valor de variavel, para concatenar você pode utilizar tanto "Text" + "Text" ou $"Text {var}" onde var é a variavel que será concatenada : Console.WriteLine($"Hello {Var}").
 
 // Arrays
 
@@ -25,3 +25,20 @@ if (condição){. . .} // Se a condição for verdadeira, executa o bloco de có
 else if(condição){. . .} // Se a condição anterior for falsa mas a atual é verdadeira for verdadeira executa o bloco de código.
 
 else{. . .} // Se a condição for falsa, executa o bloco de código.
+
+// Variaveis
+
+tipo nome = valor; // Declara uma variavel do tipo desejado com o nome desejado e atribui o valor valor.
+
+// int number = 0;
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/built-in-types // Documentação dos tipos primitivos.
+
+var nome = valor; // Declara a variavel mas o seu tipo será atribuido automaticamente na hora da compilação.
+
+// var name = "João";
+
+/*
+Nota : No caso do tipo char você deve utilizar '' para determinar o texto, as "" são usadas somente para strings.
+Nota : No caso do tipo float você deve colocar um f ao final do número para indicar que é um número de ponto flutuante.
+*/
