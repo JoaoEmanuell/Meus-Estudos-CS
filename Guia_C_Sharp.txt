@@ -1,0 +1,13 @@
+/*
+IMPORTANTE, cada arquivo na hora de mover para a sua aula respectiva deve ser renomeado para o nome da aula "Aula_x.cs" e a classe dele deve ser renomeada para o nome do arquivo "class Aula_x" e a static void Main deve ser renomeada para static void main, assim evitando erros de compilação do código principal.
+
+Para utilizar um arquivo como principal renomei o nome dele pra "Program.cs" e a classe para "Program". Além do "static void main" para "static void Main".
+*/
+
+using System; // Indica que irá usar o sistema, não é mais necessario
+
+class Progam {. . .} // Declara uma classe, no nosso caso é a classe principal.
+
+static void Main(){. . .} // Método de execução inicial, só deve ter um por programa.
+
+Console.WriteLine("Hello World!"); // Escreve na tela, no nosso caso é a mensagem Hello World, mas pode ser um valor de variavel.
