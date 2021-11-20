@@ -42,7 +42,7 @@ var nome = valor; // Declara a variavel mas o seu tipo será atribuido automatic
 
 class Program{static int number = 0 }
 
-Como o método Main é static a varaivel precisa ser static para que não ocorra erros.
+Como o método Main é static a variavel precisa ser static para que não ocorra erros.
 
 /*
 Nota : No caso do tipo char você deve utilizar '' para determinar o texto, as "" são usadas somente para strings.
