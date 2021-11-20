@@ -74,3 +74,17 @@ Console.ReadLine() // Espera que o usuario digite algo e o retorna, o retorno se
 https://docs.microsoft.com/pt-br/dotnet/api/system.convert?view=net-6.0#methods // Documentação dos métodos de conversão.
 
 // int number = Convert.ToInt32("10");
+
+// Bitwise
+
+Bitwise básicamente são operadores que dobram ou dividem pela metade o valor de um número :
+
+O Bitwise para esquerda dobra o valor, enquanto para direita divide o valor pela metade.
+
+/*
+10 << 1 == 20; // 10 * 2 = 20
+10 << 2 == 40; // 10 * 2 * 2 = 40
+
+20 >> 1 == 10; // 20 / 2 = 10
+20 >> 2 == 5; // 20 / 2 / 2 = 5
+*/
