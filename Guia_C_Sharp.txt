@@ -38,6 +38,12 @@ var nome = valor; // Declara a variavel mas o seu tipo será atribuido automatic
 
 // var name = "João";
 
+// As variaves acima são locais, para declarar uma var global declare ela dentro da classe
+
+class Program{static int number = 0 }
+
+Como o método Main é static a varaivel precisa ser static para que não ocorra erros.
+
 /*
 Nota : No caso do tipo char você deve utilizar '' para determinar o texto, as "" são usadas somente para strings.
 Nota : No caso do tipo float você deve colocar um f ao final do número para indicar que é um número de ponto flutuante.
