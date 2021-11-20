@@ -11,3 +11,17 @@ class Progam {. . .} // Declara uma classe, no nosso caso é a classe principal.
 static void Main(){. . .} // Método de execução inicial, só deve ter um por programa.
 
 Console.WriteLine("Hello World!"); // Escreve na tela, no nosso caso é a mensagem Hello World, mas pode ser um valor de variavel.
+
+// Arrays
+
+array.GetValue(pos) // Retorna o valor da posição pos do array.
+
+array.GetLength(0) // Retorna o tamanho do array.
+
+// If
+
+if (condição){. . .} // Se a condição for verdadeira, executa o bloco de código.
+
+else if(condição){. . .} // Se a condição anterior for falsa mas a atual é verdadeira for verdadeira executa o bloco de código.
+
+else{. . .} // Se a condição for falsa, executa o bloco de código.
