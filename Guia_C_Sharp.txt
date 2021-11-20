@@ -62,3 +62,15 @@ https://sites.google.com/site/tecguia/formatar-string-c-string-format //Algumas 
 // Constantes
 
 const tipo nome = valor; // Declara uma constante do tipo desejado com o nome desejado e atribui o valor desejado, por via de regra constantes não podem ser alteradas, portanto ela é declarada e não pode ser modificada, caso tente isso irá retornar um erro e nem irá buildar.
+
+// Conversões e ReadLine
+
+Console.ReadLine() // Espera que o usuario digite algo e o retorna, o retorno sempre é do tipo string.
+
+// Para converter existe duas formas, a primeira é utilizando o método tipo.Parse(), a segunda é utilizando o método Convert.Totipo().
+
+// int number = int.Parse("10");
+
+https://docs.microsoft.com/pt-br/dotnet/api/system.convert?view=net-6.0#methods // Documentação dos métodos de conversão.
+
+// int number = Convert.ToInt32("10");
