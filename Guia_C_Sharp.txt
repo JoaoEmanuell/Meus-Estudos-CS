@@ -56,3 +56,9 @@ Nota : No caso do tipo float você deve colocar um f ao final do número para in
 {var,15:c} // Indica que irá ter 15 espaços ao lado esquerdo da variavel e que irá ser impresso como moeda, isso é com R$.
 
 {var,15:p} // Indica que irá ter 15 espaços ao lado esquerdo da variavel e que irá ser impresso como porcentagem, isso é com %.
+
+https://sites.google.com/site/tecguia/formatar-string-c-string-format //Algumas regras de Formatações, não contem todas.
+
+// Constantes
+
+const tipo nome = valor; // Declara uma constante do tipo desejado com o nome desejado e atribui o valor desejado, por via de regra constantes não podem ser alteradas, portanto ela é declarada e não pode ser modificada, caso tente isso irá retornar um erro e nem irá buildar.
