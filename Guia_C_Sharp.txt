@@ -88,3 +88,31 @@ O Bitwise para esquerda dobra o valor, enquanto para direita divide o valor pela
 20 >> 1 == 10; // 20 / 2 = 10
 20 >> 2 == 5; // 20 / 2 / 2 = 5
 */
+
+// Enumerate
+
+Enumerate é uma forma de criar um tipo de dados que possui um conjunto de valores, ou seja, um conjunto de constantes.
+
+Para criar faça o seguinte :
+
+enum name = {value1, value2...}
+
+Por padrão o valor inicial do enumerate é 0, o segundo é 1, o terceiro é 2, e assim por diante.
+
+Para retonrar o valor de um enumerate basta utilizar o nome do enumerate seguido de um ponto e o nome da constante, ou criar uma variavel que seja do mesmo tipo do enum.
+
+// WeekDays wd = WeekDays.Monday;
+
+// Cast
+
+Cast é uma forma de conversão de dados do enum :
+
+// WeekDays wd = (WeekDays)3;
+
+No caso acima ele irá retornar quem está na posição 3 do enum.
+
+// int wd = (int)WeekDays.Monday;
+
+No caso acima ele irá retonrar a posição onde Monday se encontra no enum, no caso 0.
+
+https://docs.microsoft.com/pt-br/dotnet/csharp/language-reference/builtin-types/enum // Documentação do enum.
