@@ -14,6 +14,20 @@ Console.WriteLine("Hello World!"); // Escreve na tela, no nosso caso é a mensag
 
 // Arrays
 
+// Declarações :
+
+tipo[] nome = new tipo[quantidade]; // Declara um array com tipo x e quantidade x, porém não atribui nada a ele.
+
+// int[] numbers = new int[5];
+
+tipo[] nome = new tipo[quantidade]{valores}; // Declara um array com tipo x e quantidade x, e atribui valores a ele.
+
+// int[] numbers = new int[3]{1,2,3};
+
+tipo[] nome = {valores}; // Declara um array com tipo x e atribui os valores automaticamente, nesse caso o array terá como tamanho a quantidade de valores informados.
+
+// int[] numbers = {1,2,3};
+
 array.GetValue(pos) // Retorna o valor da posição pos do array.
 
 array.GetLength(0) // Retorna o tamanho do array.
