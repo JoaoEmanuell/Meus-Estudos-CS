@@ -131,3 +131,22 @@ switch(variavel){
     }
 
 Caso a varaivel atenda ao caso ela irá ser executada, caso não irá executar o default, lembre-se de colocar o break no final de cada caso.
+
+Console.Clear(); // Limpa o console.
+
+// Label
+
+Label é uma especie de varaivel que armazena um trecho de código, que será executado e que você pode retornar para ele usando o comando goto, para criar um label digite o nome de : bloco
+
+/*
+start : // Nome do label
+    [. . .] // Código que será executado
+*/
+
+// goto
+
+goto direciona o código para um label que já foi criado :
+
+goto label_name;
+
+// goto start;
