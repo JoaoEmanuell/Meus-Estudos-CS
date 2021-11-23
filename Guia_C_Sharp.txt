@@ -188,3 +188,22 @@ for (tipo var; condição; incremento){
 // for (short i = 0; i < 10; i++){ . . . }
 
 // Nota : Normalmente se usa int mas caso o valor seja pequeno podemos utilizar short.
+
+// While
+
+While é um loop que precisa de apenas uma condição.
+
+while(condição){
+    . . .
+}
+
+/*
+ushort num = 1;
+
+while(num <= 10){
+    [ . . . ]
+    num++;
+}
+*/
+
+Lembre de declarar a var da condição antes e incrementar o valor da variavel após a condição ser verdadeira [dentro do loop].

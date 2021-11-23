@@ -1,0 +1,1 @@
+﻿namespace Meus_Estudos_CS{class Aula_20{static void main(){ushort num = 1;while(num <= 10){System.Console.WriteLine(num);num++;}}}}
