@@ -220,3 +220,13 @@ do{
     System.Console.WriteLine(num); num++;
 } while(num <= 10);
 */
+
+// Foreach
+
+Foreach serve para realizar leituras de arrays, listas, vetores e outros tipos de dados [coleções].
+
+foreach (tipo var in coleção){ . . . }
+
+// foreach (short number in numbers){ Console.WriteLine(number); }
+
+Lembre que não é permitido adicionar valores ao number no foreach.
