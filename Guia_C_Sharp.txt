@@ -176,3 +176,15 @@ tipo[,] nome = new tipo[linha,coluna]; // Declara uma matriz com duas dimensões
 O número de , determina o número de dimensões da matriz.
 
 // int[,] matriz = new int[3,3] { {1,2,3}, {4,5,6}, {7,8,9} };
+
+// For
+
+For é um loop com tamanho determinado.
+
+for (tipo var; condição; incremento){
+    . . .
+}
+
+// for (short i = 0; i < 10; i++){ . . . }
+
+// Nota : Normalmente se usa int mas caso o valor seja pequeno podemos utilizar short.
