@@ -207,3 +207,16 @@ while(num <= 10){
 */
 
 Lembre de declarar a var da condição antes e incrementar o valor da variavel após a condição ser verdadeira [dentro do loop].
+
+// Do While
+
+Do while é um loop que será executado pelo menos uma vez.
+
+do { . . . } while (condição);
+
+/*
+ushort num = 1;
+do{
+    System.Console.WriteLine(num); num++;
+} while(num <= 10);
+*/
