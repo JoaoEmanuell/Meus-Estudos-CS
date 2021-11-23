@@ -164,3 +164,15 @@ goto direciona o código para um label que já foi criado :
 goto label_name;
 
 // goto start;
+
+// Matrizes
+
+Matrizes são arrays com duas ou mais posições, ou seja, arrays com mais de uma dimensão.
+
+tipo[,] nome = new tipo[linha,coluna]; // Declara uma matriz com duas dimensões, cada dimensão com um número x de linhas x de colunas.
+
+// int[,] matriz = new int[3,3];
+
+O número de , determina o número de dimensões da matriz.
+
+// int[,] matriz = new int[3,3] { {1,2,3}, {4,5,6}, {7,8,9} };
